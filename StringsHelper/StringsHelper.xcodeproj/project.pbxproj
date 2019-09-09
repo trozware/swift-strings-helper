@@ -214,7 +214,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = TrozWare;
 				TargetAttributes = {
 					264164AB20DB52600032B95D = {
@@ -222,9 +222,11 @@
 					};
 					2684ED9420DA305000524F19 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 					};
 					2684ED9D20DA305000524F19 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -234,6 +236,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2684ED8B20DA305000524F19;
 			productRefGroup = 2684ED9620DA305000524F19 /* Products */;
@@ -319,7 +322,7 @@
 		264164BE20DB52600032B95D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TC28MCLCFA;
@@ -346,7 +349,7 @@
 		264164BF20DB52600032B95D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TC28MCLCFA;
@@ -512,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.troz.StringsHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -538,7 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.troz.StringsHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -557,7 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.troz.StringsHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -576,7 +579,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.troz.StringsHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

@@ -19,6 +19,8 @@ A framework/library to make working with strings in Swift a bit easier. Because 
 
 CocoaPODs and Carthage support may come, depending on the level of interest. Or I may be able to skip straight to supporting Swift Package Manager.
 
+September 2019: Updated to Swift 5.2
+
 ---
 
 ### Contributing to the project:
